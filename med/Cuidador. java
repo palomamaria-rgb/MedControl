@@ -1,0 +1,13 @@
+package med;
+
+public class Cuidador {
+    String nome;
+
+    public Cuidador(String nome) {
+        this.nome = nome;
+    }
+
+    public void apresentar() {
+        System.out.println("Cuidador: " + nome);
+    }
+}

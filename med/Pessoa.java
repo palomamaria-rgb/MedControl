@@ -1,0 +1,18 @@
+// ===== CLASSE PESSOA =====
+public class Pessoa {
+
+    private String nome;
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void apresentar() {
+        System.out.println("Pessoa: " + nome);
+    }
+}
+
